@@ -1,0 +1,146 @@
+[
+    {
+        "value": "Almalinux 8(Cloudinit)  (64 bit)",
+        "text": "Almalinux 8(Cloudinit)  (64 bit)",
+        "eval": false,
+        "disktype": []
+    },
+    {
+        "value": "Microsoft Windows Server 2022 Standard (ENG) (64 bit)",
+        "text": "Microsoft Windows Server 2022 Standard (ENG) (64 bit)",
+        "eval": true,
+        "disktype": []
+    },
+    {
+        "value": "Microsoft Windows Server 2022 Standard (RUS) (64 bit)",
+        "text": "Microsoft Windows Server 2022 Standard (RUS) (64 bit)",
+        "eval": true,
+        "disktype": []
+    },
+    {
+        "value": "Microsoft Windows Server 2019 Standard (ENG) (64 bit)",
+        "text": "Microsoft Windows Server 2019 Standard (ENG) (64 bit)",
+        "eval": true,
+        "disktype": []
+    },
+    {
+        "value": "Microsoft Windows Server 2019 Standard (RUS) (64 bit)",
+        "text": "Microsoft Windows Server 2019 Standard (RUS) (64 bit)",
+        "eval": true,
+        "disktype": []
+    },
+    {
+        "value": "Microsoft Windows Server 2016 Standard (ENG) (64 bit)",
+        "text": "Microsoft Windows Server 2016 Standard (ENG) (64 bit)",
+        "eval": true,
+        "disktype": []
+    },
+    {
+        "value": "Microsoft Windows Server 2016 Standard (RUS) (64 bit)",
+        "text": "Microsoft Windows Server 2016 Standard (RUS) (64 bit)",
+        "eval": true,
+        "disktype": []
+    },
+    {
+        "value": "Microsoft Windows Server 2012 R2 Standard (ENG) (64 bit)",
+        "text": "Microsoft Windows Server 2012 R2 Standard (ENG) (64 bit)",
+        "eval": true,
+        "disktype": []
+    },
+    {
+        "value": "Microsoft Windows Server 2012 R2 Standard (RUS) (64 bit)",
+        "text": "Microsoft Windows Server 2012 R2 Standard (RUS) (64 bit)",
+        "eval": true,
+        "disktype": []
+    },
+    {
+        "value": "Microsoft Windows 11 (ENG) (64 bit)",
+        "text": "Microsoft Windows 11 (ENG) (64 bit)",
+        "eval": true,
+        "disktype": [
+            "NVME",
+            "HDD"
+        ]
+    },
+    {
+        "value": "Microsoft Windows 10 (ENG) (64 bit)",
+        "text": "Microsoft Windows 10 (ENG) (64 bit)",
+        "eval": true,
+        "disktype": []
+    },
+    {
+        "value": "Microsoft Windows 11 (RUS) (64 bit)",
+        "text": "Microsoft Windows 11 (RUS) (64 bit)",
+        "eval": false,
+        "disktype": [
+            "NVME",
+            "HDD"
+        ]
+    },
+    {
+        "value": "Microsoft Windows 10 (RUS) (64 bit)",
+        "text": "Microsoft Windows 10 (RUS) (64 bit)",
+        "eval": false,
+        "disktype": []
+    },
+    {
+        "value": "Ubuntu (Cloudinit) 20 (64 bit)",
+        "text": "Ubuntu (Cloudinit) 20 (64 bit)",
+        "eval": false,
+        "disktype": []
+    },
+    {
+        "value": "Ubuntu (Cloudinit) 22 (64 bit)",
+        "text": "Ubuntu (Cloudinit) 22 (64 bit)",
+        "eval": false,
+        "disktype": []
+    },
+    {
+        "value": "Ubuntu 18 (64 bit)",
+        "text": "Ubuntu 18 (64 bit)",
+        "eval": false,
+        "disktype": []
+    },
+    {
+        "value": "Ubuntu 16 (32 bit)",
+        "text": "Ubuntu 16 (32 bit)",
+        "eval": false,
+        "disktype": []
+    },
+    {
+        "value": "Ubuntu 16 (64 bit)",
+        "text": "Ubuntu 16 (64 bit)",
+        "eval": false,
+        "disktype": []
+    },
+    {
+        "value": "Debian GNU/Linux 11 Bullseye (Cloudinit) (64 bit)",
+        "text": "Debian GNU/Linux 11 Bullseye (Cloudinit) (64 bit)",
+        "eval": false,
+        "disktype": []
+    },
+    {
+        "value": "Debian GNU/Linux 12 bookworm (Cloudinit) (64 bit)",
+        "text": "Debian GNU/Linux 12 bookworm (Cloudinit) (64 bit)",
+        "eval": false,
+        "disktype": []
+    },
+    {
+        "value": "Debian GNU/Linux 10 Buster (Cloudinit) (64 bit)",
+        "text": "Debian GNU/Linux 10 Buster (Cloudinit) (64 bit)",
+        "eval": false,
+        "disktype": []
+    },
+    {
+        "value": "CentOS (Cloudinit) 8 (64 bit)",
+        "text": "CentOS (Cloudinit) 8 (64 bit)",
+        "eval": false,
+        "disktype": []
+    },
+    {
+        "value": "CentOS (Cloudinit) 7 (64 bit)",
+        "text": "CentOS (Cloudinit) 7 (64 bit)",
+        "eval": false,
+        "disktype": []
+    }
+]

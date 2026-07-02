@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "UAH",
+        "currency": 0.0244
+    },
+    {
+        "id": 3,
+        "name": "USD",
+        "currency": 1
+    },
+    {
+        "id": 4,
+        "name": "EUR",
+        "currency": 1.18
+    }
+]

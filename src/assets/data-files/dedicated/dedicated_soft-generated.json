@@ -1,0 +1,86 @@
+[
+    {
+        "id": 3000,
+        "type": "Free software",
+        "name": "Panel Hestia CP (without support)",
+        "ico": "ic_hestiacp.svg",
+        "info_url": "",
+        "price_title": "free",
+        "price": 0,
+        "price12m": 0,
+        "currency_id": 3,
+        "currency_symbol": "$",
+        "for_os": [
+            "Ubuntu (Cloudinit) 22 (64 bit)",
+            "Ubuntu (Cloudinit) 20 (64 bit)",
+            "Debian GNU/Linux 12 bookworm (Cloudinit) (64 bit)",
+            "Debian GNU/Linux 11 Bullseye (Cloudinit) (64 bit)"
+        ]
+    },
+    {
+        "id": 203,
+        "name": "cPanel Premier Metal (100 accounts)",
+        "price": 60,
+        "type": "License",
+        "currency_id": 3,
+        "price12m": 54,
+        "currency_symbol": "$",
+        "price_title": "$60/month",
+        "for_os": [
+            "Almalinux 8(Cloudinit)  (64 bit)",
+            "Ubuntu (Cloudinit) 22 (64 bit)",
+            "Ubuntu (Cloudinit) 20 (64 bit)"
+        ],
+        "max_links": "1",
+        "info": "",
+        "info_url": ""
+    },
+    {
+        "id": 44,
+        "name": "Windows Server Standard",
+        "price": 30,
+        "type": "License",
+        "currency_id": 3,
+        "price12m": 27,
+        "currency_symbol": "$",
+        "price_title": "$30/month",
+        "for_os": [
+            "Microsoft Windows Server 2012 R2 Standard (ENG) (64 bit)",
+            "Microsoft Windows Server 2012 R2 Standard (RUS) (64 bit)",
+            "Microsoft Windows Server 2016 Standard (ENG) (64 bit)",
+            "Microsoft Windows Server 2016 Standard (RUS) (64 bit)",
+            "Microsoft Windows Server 2022 Standard (ENG) (64 bit)",
+            "Microsoft Windows Server 2022 Standard (RUS) (64 bit)"
+        ],
+        "max_links": "1",
+        "info": "",
+        "info_url": "",
+        "slave_soft": [
+            151
+        ]
+    },
+    {
+        "id": 151,
+        "name": "Windows Remote Desktop (per user)",
+        "price": 7,
+        "type": "License",
+        "currency_id": 3,
+        "price12m": 6.3,
+        "currency_symbol": "$",
+        "price_title": "$7/month",
+        "info": "",
+        "info_url": "",
+        "for_os": [
+            "Microsoft Windows Server 2012 R2 Standard (ENG) (64 bit)",
+            "Microsoft Windows Server 2012 R2 Standard (RUS) (64 bit)",
+            "Microsoft Windows Server 2016 Standard (ENG) (64 bit)",
+            "Microsoft Windows Server 2016 Standard (RUS) (64 bit)",
+            "Microsoft Windows Server 2019 Standard (ENG) (64 bit)",
+            "Microsoft Windows Server 2019 Standard (RUS) (64 bit)"
+        ],
+        "max_links": 100,
+        "master_soft": [
+            44
+        ]
+    }
+]

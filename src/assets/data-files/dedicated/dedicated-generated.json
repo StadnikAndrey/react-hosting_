@@ -1,0 +1,314 @@
+[
+    {
+        "id": 302,
+        "name": "UA-Xeon",
+        "price": 42,
+        "type": 3,
+        "description": "4 core, 3.3 GHz",
+        "dcs": [
+            "ua"
+        ],
+        "class": "container",
+        "price12m": 37.8,
+        "currency_symbol": "$",
+        "datacenters": [
+            "ua"
+        ],
+        "sticker_class": "sticker-hit",
+        "CPU": "Xeon E3-1230v2",
+        "RAM": "8-32GB",
+        "HDD": "250GB - 32TB",
+        "cores": "4",
+        "sticker": "Limited quantity",
+        "container": true,
+        "comment": "Setup time: 1-5 days",
+        "port": "1 Gbit/s",
+        "traffic": "20 TB"
+    },
+    {
+        "id": 300,
+        "name": "UA-X11",
+        "price": 52,
+        "type": 3,
+        "description": "4 core, 3.4 GHz",
+        "dcs": [
+            "ua"
+        ],
+        "class": "container",
+        "price12m": 46.8,
+        "currency_symbol": "$",
+        "datacenters": [
+            "ua"
+        ],
+        "CPU": "Xeon E3-1230v5",
+        "RAM": "16-64GB",
+        "HDD": "250GB - 32TB",
+        "cores": "4",
+        "container": true,
+        "comment": "Setup time: 1-5 days",
+        "port": "1 Gbit/s",
+        "traffic": "20 TB",
+        "sticker": "",
+        "sticker_class": ""
+    },
+    {
+        "id": 422,
+        "name": "UA-8X13",
+        "price": 105,
+        "type": 3,
+        "description": "8 core, 2.6 GHz",
+        "dcs": [
+            "ua"
+        ],
+        "class": "container",
+        "price12m": 94.5,
+        "currency_symbol": "$",
+        "datacenters": [
+            "ua"
+        ],
+        "CPU": "Xeon E-2468",
+        "RAM": "32-128GB",
+        "HDD": "250GB - 34TB",
+        "cores": "8",
+        "comment": "Setup time: 1-14 working days",
+        "container": true,
+        "port": "1 Gbit/s",
+        "traffic": "20 TB",
+        "sticker": "",
+        "sticker_class": ""
+    },
+    {
+        "id": 407,
+        "name": "UA-10X11",
+        "price": 123,
+        "type": 3,
+        "description": "10 core, 2.2 GHz",
+        "dcs": [
+            "ua"
+        ],
+        "class": "container",
+        "price12m": 110.7,
+        "currency_symbol": "$",
+        "datacenters": [
+            "ua"
+        ],
+        "sticker_class": "sticker-new",
+        "CPU": "Xeon Silver 4210",
+        "RAM": "32-512GB",
+        "HDD": "250GB - 54TB",
+        "cores": "8",
+        "sticker": "New",
+        "comment": "Setup time: 1-14 working days",
+        "container": true,
+        "port": "1 Gbit/s",
+        "traffic": "20 TB"
+    },
+    {
+        "id": 318,
+        "name": "UA-SIX",
+        "price": 125,
+        "type": 3,
+        "description": "1-2 Intel CPU, 10-20 cores",
+        "dcs": [
+            "ua"
+        ],
+        "class": "container",
+        "price12m": 112.5,
+        "currency_symbol": "$",
+        "datacenters": [
+            "ua"
+        ],
+        "sticker_class": "sticker-hit",
+        "CPU": "Intel Xeon Scalable",
+        "RAM": "32-512GB",
+        "HDD": "250GB - 78TB",
+        "cores": "milticpu",
+        "sticker": "Limited quantity",
+        "comment": "Setup time: 1-14 days",
+        "container": true,
+        "port": "1 Gbit/s",
+        "traffic": "20 TB"
+    },
+    {
+        "id": 398,
+        "name": "UA-12X12",
+        "price": 176,
+        "type": 3,
+        "description": "12 core, 2.1 GHz",
+        "dcs": [
+            "ua"
+        ],
+        "class": "container",
+        "price12m": 158.4,
+        "currency_symbol": "$",
+        "datacenters": [
+            "ua"
+        ],
+        "sticker_class": "sticker-new",
+        "CPU": "Xeon Silver 4310",
+        "RAM": "32-512GB",
+        "HDD": "250GB - 54TB",
+        "cores": "8",
+        "sticker": "New",
+        "comment": "Setup time: 1-14 working days",
+        "container": true,
+        "port": "1 Gbit/s",
+        "traffic": "20 TB"
+    },
+    {
+        "id": 396,
+        "name": "UA-16X12",
+        "price": 191,
+        "type": 3,
+        "description": "16 core, 2.4 GHz",
+        "dcs": [
+            "ua"
+        ],
+        "class": "container",
+        "price12m": 171.9,
+        "currency_symbol": "$",
+        "datacenters": [
+            "ua"
+        ],
+        "sticker_class": "sticker-new",
+        "CPU": "Xeon Silver 4314",
+        "RAM": "32-512GB",
+        "HDD": "250GB - 54TB",
+        "cores": "8",
+        "sticker": "New",
+        "comment": "Setup time: 1-14 working days",
+        "container": true,
+        "port": "1 Gbit/s",
+        "traffic": "20 TB"
+    },
+    {
+        "id": 416,
+        "name": "UA-SIX13",
+        "price": 288,
+        "type": 3,
+        "description": "1-2 Intel CPU, 12-32 cores",
+        "dcs": [
+            "ua"
+        ],
+        "class": "container",
+        "price12m": 259.2,
+        "currency_symbol": "$",
+        "datacenters": [
+            "ua"
+        ],
+        "sticker_class": "sticker-new",
+        "CPU": "Intel Xeon Scalable",
+        "RAM": "64-512GB",
+        "HDD": "250GB - 78TB",
+        "cores": "milticpu",
+        "sticker": "New",
+        "comment": "Setup time: 1-14 days",
+        "container": true,
+        "port": "1 Gbit/s",
+        "traffic": "20 TB"
+    },
+    {
+        "id": 316,
+        "name": "NL-Xeon",
+        "price": 46,
+        "type": 3,
+        "description": "4 core, 3.3GHz",
+        "dcs": [
+            "nl"
+        ],
+        "class": "container",
+        "price12m": 41.4,
+        "currency_symbol": "$",
+        "datacenters": [
+            "nl"
+        ],
+        "sticker_class": "sticker-hit",
+        "CPU": "Xeon E3-1230v2",
+        "RAM": "8-32GB",
+        "HDD": "250GB - 24TB",
+        "cores": "4",
+        "sticker": "Limited quantity",
+        "comment": "Setup time: 1-5 working days",
+        "container": true,
+        "port": "1 Gbit/s",
+        "traffic": "20 TB"
+    },
+    {
+        "id": 328,
+        "name": "NL-8X12",
+        "price": 139,
+        "type": 3,
+        "description": "8 core, 3.2 GHz",
+        "dcs": [
+            "nl"
+        ],
+        "class": "container",
+        "price12m": 125.1,
+        "currency_symbol": "$",
+        "datacenters": [
+            "nl"
+        ],
+        "CPU": "Xeon E-2388G",
+        "RAM": "32-128GB",
+        "HDD": "250GB - 34TB",
+        "cores": "8",
+        "comment": "Setup time: 1-14 working days",
+        "container": true,
+        "port": "1 Gbit/s",
+        "traffic": "20 TB",
+        "sticker": "",
+        "sticker_class": ""
+    },
+    {
+        "id": 365,
+        "name": "NL-12X12",
+        "price": 186,
+        "type": 3,
+        "description": "12 core, 2.1 GHz",
+        "dcs": [
+            "nl"
+        ],
+        "class": "container",
+        "price12m": 167.4,
+        "currency_symbol": "$",
+        "datacenters": [
+            "nl"
+        ],
+        "sticker_class": "sticker-new",
+        "CPU": "Xeon Silver 4310",
+        "RAM": "32-512GB",
+        "HDD": "250GB - 54TB",
+        "cores": "8",
+        "sticker": "New",
+        "comment": "Setup time: 1-14 working days",
+        "container": true,
+        "port": "1 Gbit/s",
+        "traffic": "20 TB"
+    },
+    {
+        "id": 366,
+        "name": "NL-16X12",
+        "price": 204,
+        "type": 3,
+        "description": "16 core, 2.4 GHz",
+        "dcs": [
+            "nl"
+        ],
+        "class": "container",
+        "price12m": 183.6,
+        "currency_symbol": "$",
+        "datacenters": [
+            "nl"
+        ],
+        "sticker_class": "sticker-new",
+        "CPU": "Xeon Silver 4314",
+        "RAM": "32-512GB",
+        "HDD": "250GB - 54TB",
+        "cores": "8",
+        "sticker": "New",
+        "comment": "Setup time: 1-14 working days",
+        "container": true,
+        "port": "1 Gbit/s",
+        "traffic": "20 TB"
+    }
+]

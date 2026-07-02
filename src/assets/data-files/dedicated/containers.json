@@ -1,0 +1,4634 @@
+[
+  {
+    "id": 277,
+    "name": "US-4I11",
+    "currency_id": 3,
+    "price": 78,
+    "description": "Core i3-9100F, 4 core, 3.6GHz, RAM 16-64Gb, drive 250Gb - 34Tb",
+    "class": "container",
+    "class_desc": {
+      "categories": {
+        "RAM": {
+          "interfaces": [
+            {
+              "type": "DDR4",
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  16
+                ]
+              },
+              "part_id": 281,
+              "required": 1,
+              "part_cells": 0
+            },
+            {
+              "params": {
+                "capacity": [
+                  16
+                ],
+                "units": "GB"
+              },
+              "part_id": null,
+              "required": 0,
+              "type": "DDR4"
+            },
+            {
+              "part_id": null,
+              "params": {
+                "capacity": [
+                  16
+                ],
+                "units": "GB"
+              },
+              "required": 0,
+              "type": "DDR4"
+            },
+            {
+              "part_id": null,
+              "params": {
+                "capacity": [
+                  16
+                ],
+                "units": "GB"
+              },
+              "required": 0,
+              "type": "DDR4"
+            }
+          ]
+        },
+        "BUS": {
+          "interfaces": [
+            {
+              "type": "PCIe",
+              "params": {
+                "size": [
+                  "1U",
+                  "2U",
+                  "3U"
+                ],
+                "capacity": [
+                  16,
+                  8,
+                  4,
+                  2
+                ]
+              },
+              "required": 0,
+              "part_id": null
+            }
+          ]
+        },
+        "DRIVES": {
+          "interfaces": [
+            {
+              "type": "M.2",
+              "required": 0,
+              "part_id": null,
+              "params": {}
+            },
+            {
+              "type": "SATA",
+              "part_id": 286,
+              "required": 0,
+              "params": {},
+              "part_cells": 1
+            },
+            {
+              "type": "SATA",
+              "required": 0,
+              "part_id": null,
+              "params": {}
+            },
+            {
+              "type": "SATA",
+              "params": {},
+              "part_id": null,
+              "required": 0
+            },
+            {
+              "type": "SATA",
+              "required": 0,
+              "part_id": null,
+              "params": {}
+            }
+          ]
+        }
+      },
+      "cells": {
+        "max_parts": 2,
+        "count": 4,
+        "free": 4
+      }
+    },
+    "dcs": [
+      5
+    ]
+  },
+  {
+    "id": 280,
+    "name": "US-6X11",
+    "currency_id": 3,
+    "price": 96,
+    "description": "Xeon E-2236, 6 core, 3.4GHz, RAM 32-128Gb, drive 250Gb - 34Tb",
+    "class": "container",
+    "class_desc": {
+      "categories": {
+        "RAM": {
+          "interfaces": [
+            {
+              "part_id": 282,
+              "params": {
+                "capacity": [
+                  32
+                ],
+                "units": "GB"
+              },
+              "type": "DDR4",
+              "required": 1,
+              "part_cells": 0
+            },
+            {
+              "part_id": null,
+              "params": {
+                "capacity": [
+                  32
+                ],
+                "units": "GB"
+              },
+              "type": "DDR4",
+              "required": 0
+            },
+            {
+              "params": {
+                "capacity": [
+                  32
+                ],
+                "units": "GB"
+              },
+              "type": "DDR4",
+              "required": 0,
+              "part_id": null
+            },
+            {
+              "required": 0,
+              "type": "DDR4",
+              "params": {
+                "capacity": [
+                  32
+                ],
+                "units": "GB"
+              },
+              "part_id": null
+            }
+          ]
+        },
+        "BUS": {
+          "interfaces": [
+            {
+              "part_id": null,
+              "params": {
+                "size": [
+                  "1U",
+                  "2U"
+                ],
+                "capacity": [
+                  16,
+                  8,
+                  4,
+                  2
+                ]
+              },
+              "type": "PCIe",
+              "required": 0
+            }
+          ]
+        },
+        "DRIVES": {
+          "interfaces": [
+            {
+              "params": {},
+              "required": 0,
+              "type": "M.2",
+              "part_id": null
+            },
+            {
+              "part_id": 286,
+              "required": 0,
+              "type": "SATA",
+              "params": {},
+              "part_cells": 1
+            },
+            {
+              "part_id": null,
+              "required": 0,
+              "type": "SATA",
+              "params": {}
+            },
+            {
+              "type": "SATA",
+              "required": 0,
+              "params": {},
+              "part_id": null
+            },
+            {
+              "part_id": null,
+              "params": {},
+              "type": "SATA",
+              "required": 0
+            }
+          ]
+        }
+      },
+      "cells": {
+        "count": 4,
+        "max_parts": 2,
+        "free": 4
+      }
+    },
+    "dcs": [
+      5
+    ]
+  },
+  {
+    "id": 300,
+    "name": "UA-X11",
+    "currency_id": 3,
+    "price": 46,
+    "description": "Xeon E3-1230v5, 4 core, 3.4GHz, RAM 16-64Gb, drive 250Gb - 32Tb",
+    "class": "container",
+    "class_desc": {
+      "cells": {
+        "count": 4,
+        "max_parts": 4,
+        "free": 3
+      },
+      "categories": {
+        "DRIVES": {
+          "interfaces": [
+            {
+              "part_id": 241,
+              "type": "SATA",
+              "params": {},
+              "required": 1,
+              "part_cells": 1
+            },
+            {
+              "part_id": null,
+              "required": 0,
+              "type": "SATA",
+              "params": {}
+            },
+            {
+              "part_id": null,
+              "params": {},
+              "type": "SATA",
+              "required": 0
+            },
+            {
+              "type": "SATA",
+              "params": {},
+              "required": 0,
+              "part_id": null
+            }
+          ]
+        },
+        "RAM": {
+          "interfaces": [
+            {
+              "required": 1,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  16
+                ]
+              },
+              "type": "DDR4",
+              "part_id": 239,
+              "part_cells": 0
+            },
+            {
+              "part_id": null,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  16
+                ]
+              },
+              "type": "DDR4",
+              "required": 0
+            },
+            {
+              "part_id": null,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  16
+                ]
+              },
+              "type": "DDR4",
+              "required": 0
+            },
+            {
+              "part_id": null,
+              "required": 0,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  16
+                ]
+              },
+              "type": "DDR4"
+            }
+          ]
+        },
+        "BUS": {
+          "interfaces": [
+            {
+              "part_id": null,
+              "required": 0,
+              "params": {
+                "capacity": [
+                  16,
+                  8,
+                  4,
+                  2
+                ],
+                "size": [
+                  "1U",
+                  "2U",
+                  "3U"
+                ]
+              },
+              "type": "PCIe"
+            }
+          ]
+        }
+      }
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 302,
+    "name": "UA-Xeon",
+    "currency_id": 3,
+    "price": 37,
+    "description": "Xeon E3-1230v2, 4 core, 3.3GHz, RAM 8-32Gb, drive 250Gb - 32Tb",
+    "class": "container",
+    "class_desc": {
+      "cells": {
+        "count": 4,
+        "max_parts": 4,
+        "free": 3
+      },
+      "categories": {
+        "RAM": {
+          "interfaces": [
+            {
+              "required": 1,
+              "type": "DDR3",
+              "part_id": 301,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  8
+                ]
+              },
+              "part_cells": 0
+            },
+            {
+              "required": 0,
+              "type": "DDR3",
+              "part_id": null,
+              "params": {
+                "capacity": [
+                  8
+                ],
+                "units": "GB"
+              }
+            },
+            {
+              "required": 0,
+              "type": "DDR3",
+              "part_id": null,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  8
+                ]
+              }
+            },
+            {
+              "type": "DDR3",
+              "part_id": null,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  8
+                ]
+              },
+              "required": 0
+            }
+          ]
+        },
+        "DRIVES": {
+          "interfaces": [
+            {
+              "required": 1,
+              "params": {},
+              "part_id": 241,
+              "type": "SATA",
+              "part_cells": 1
+            },
+            {
+              "part_id": null,
+              "params": {},
+              "type": "SATA",
+              "required": 0
+            },
+            {
+              "type": "SATA",
+              "part_id": null,
+              "params": {},
+              "required": 0
+            },
+            {
+              "required": 0,
+              "type": "SATA",
+              "part_id": null,
+              "params": {}
+            }
+          ]
+        },
+        "BUS": {
+          "interfaces": []
+        }
+      }
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 316,
+    "name": "NL-Xeon",
+    "currency_id": 3,
+    "price": 39,
+    "description": "Xeon E3-1230v2, 4 core, 3.3GHz, RAM 8-32Gb, drive 250Gb - 24Tb",
+    "class": "container",
+    "class_desc": {
+      "categories": {
+        "BUS": {
+          "interfaces": []
+        },
+        "DRIVES": {
+          "interfaces": [
+            {
+              "type": "SATA",
+              "part_id": 265,
+              "required": 1,
+              "params": {},
+              "part_cells": 1
+            },
+            {
+              "params": {},
+              "required": 0,
+              "type": "SATA",
+              "part_id": null
+            },
+            {
+              "required": 0,
+              "params": {},
+              "type": "SATA",
+              "part_id": null
+            },
+            {
+              "part_id": null,
+              "type": "SATA",
+              "required": 0,
+              "params": {}
+            }
+          ]
+        },
+        "RAM": {
+          "interfaces": [
+            {
+              "required": 1,
+              "params": {
+                "capacity": [
+                  8
+                ],
+                "units": "GB"
+              },
+              "part_id": 314,
+              "type": "DDR3",
+              "part_cells": 0
+            },
+            {
+              "part_id": null,
+              "type": "DDR3",
+              "params": {
+                "capacity": [
+                  8
+                ],
+                "units": "GB"
+              },
+              "required": 0
+            },
+            {
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  8
+                ]
+              },
+              "required": 0,
+              "part_id": null,
+              "type": "DDR3"
+            },
+            {
+              "part_id": null,
+              "type": "DDR3",
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  8
+                ]
+              },
+              "required": 0
+            }
+          ]
+        }
+      },
+      "cells": {
+        "count": 4,
+        "max_parts": 4,
+        "free": 3
+      }
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 318,
+    "name": "UA-SIX",
+    "currency_id": 3,
+    "price": 100,
+    "description": "1-2 Intel CPU, 10-20 cores, RAM 32-512Gb, drive 250Gb - 78Tb",
+    "class": "container",
+    "class_desc": {
+      "cells": {
+        "count": 10,
+        "max_parts": 10,
+        "free": 10
+      },
+      "categories": {
+        "BUS": {
+          "interfaces": [
+            {
+              "type": "PCIe",
+              "params": {
+                "size": [
+                  "1U",
+                  "2U"
+                ],
+                "capacity": [
+                  16,
+                  8,
+                  4,
+                  2
+                ]
+              },
+              "required": 0,
+              "part_id": null
+            },
+            {
+              "type": "PCIe",
+              "part_id": null,
+              "required": 0,
+              "params": {
+                "size": [
+                  "1U",
+                  "2U"
+                ],
+                "capacity": [
+                  16,
+                  8,
+                  4,
+                  2
+                ]
+              }
+            },
+            {
+              "params": {
+                "capacity": [
+                  16,
+                  8,
+                  4,
+                  2
+                ],
+                "size": [
+                  "1U",
+                  "2U"
+                ]
+              },
+              "required": 0,
+              "part_id": null,
+              "type": "PCIe"
+            },
+            {
+              "type": "PCIe",
+              "part_id": null,
+              "required": 0,
+              "params": {
+                "size": [
+                  "1U",
+                  "2U"
+                ],
+                "capacity": [
+                  16,
+                  8,
+                  4,
+                  2
+                ]
+              }
+            }
+          ]
+        },
+        "DRIVES": {
+          "interfaces": [
+            {
+              "part_id": null,
+              "params": {},
+              "required": 0,
+              "type": "M.2"
+            },
+            {
+              "part_id": 241,
+              "required": 0,
+              "params": {},
+              "type": "SATA",
+              "part_cells": 1
+            },
+            {
+              "params": {},
+              "required": 0,
+              "part_id": null,
+              "type": "SATA"
+            },
+            {
+              "type": "SATA",
+              "params": {},
+              "required": 0,
+              "part_id": null
+            },
+            {
+              "type": "SATA",
+              "params": {},
+              "required": 0,
+              "part_id": null
+            },
+            {
+              "type": "SATA",
+              "part_id": null,
+              "required": 0,
+              "params": {}
+            },
+            {
+              "type": "SATA",
+              "part_id": null,
+              "required": 0,
+              "params": {}
+            },
+            {
+              "required": 0,
+              "params": {},
+              "part_id": null,
+              "type": "SATA"
+            },
+            {
+              "type": "SATA",
+              "part_id": null,
+              "params": {},
+              "required": 0
+            },
+            {
+              "required": 0,
+              "params": {},
+              "part_id": null,
+              "type": "SATA"
+            },
+            {
+              "required": 0,
+              "params": {},
+              "part_id": null,
+              "type": "SATA"
+            }
+          ]
+        },
+        "CPU": {
+          "interfaces": [
+            {
+              "type": "LGA3647",
+              "part_id": 424,
+              "required": 1,
+              "params": {
+                "model": [
+                  "Silver 4114"
+                ]
+              },
+              "part_cells": 0
+            },
+            {
+              "type": "LGA3647",
+              "part_id": null,
+              "params": {
+                "model": [
+                  "Silver 4114"
+                ]
+              },
+              "required": 0
+            }
+          ]
+        },
+        "RAM": {
+          "interfaces": [
+            {
+              "type": "DDR4 REG",
+              "part_id": 321,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32
+                ]
+              },
+              "required": 1,
+              "part_cells": 0
+            },
+            {
+              "type": "DDR4 REG",
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32
+                ]
+              },
+              "required": 0,
+              "part_id": null
+            },
+            {
+              "type": "DDR4 REG",
+              "required": 0,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32
+                ]
+              },
+              "part_id": null
+            },
+            {
+              "part_id": null,
+              "required": 0,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32
+                ]
+              },
+              "type": "DDR4 REG"
+            },
+            {
+              "part_id": null,
+              "required": 0,
+              "params": {
+                "capacity": [
+                  32
+                ],
+                "units": "GB"
+              },
+              "type": "DDR4 REG"
+            },
+            {
+              "type": "DDR4 REG",
+              "part_id": null,
+              "required": 0,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32
+                ]
+              }
+            },
+            {
+              "params": {
+                "capacity": [
+                  32
+                ],
+                "units": "GB"
+              },
+              "required": 0,
+              "part_id": null,
+              "type": "DDR4 REG"
+            },
+            {
+              "part_id": null,
+              "required": 0,
+              "params": {
+                "capacity": [
+                  32
+                ],
+                "units": "GB"
+              },
+              "type": "DDR4 REG"
+            },
+            {
+              "type": "DDR4 REG",
+              "required": 0,
+              "params": {
+                "capacity": [
+                  32
+                ],
+                "units": "GB"
+              },
+              "part_id": null
+            },
+            {
+              "type": "DDR4 REG",
+              "part_id": null,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32
+                ]
+              },
+              "required": 0
+            },
+            {
+              "params": {
+                "capacity": [
+                  32
+                ],
+                "units": "GB"
+              },
+              "required": 0,
+              "part_id": null,
+              "type": "DDR4 REG"
+            },
+            {
+              "type": "DDR4 REG",
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32
+                ]
+              },
+              "required": 0,
+              "part_id": null
+            },
+            {
+              "part_id": null,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32
+                ]
+              },
+              "required": 0,
+              "type": "DDR4 REG"
+            },
+            {
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32
+                ]
+              },
+              "required": 0,
+              "part_id": null,
+              "type": "DDR4 REG"
+            },
+            {
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32
+                ]
+              },
+              "required": 0,
+              "part_id": null,
+              "type": "DDR4 REG"
+            },
+            {
+              "type": "DDR4 REG",
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32
+                ]
+              },
+              "required": 0,
+              "part_id": null
+            }
+          ],
+          "pairing": 1
+        }
+      }
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 328,
+    "name": "NL-8X12",
+    "currency_id": 3,
+    "price": 126,
+    "description": "Xeon E-2388G, 8 core, 3.2GHz, RAM 32-128Gb, drive 250Gb - 34Tb",
+    "class": "container",
+    "class_desc": {
+      "categories": {
+        "DRIVES": {
+          "interfaces": [
+            {
+              "part_id": null,
+              "type": "M.2",
+              "required": 0,
+              "params": {}
+            },
+            {
+              "params": {},
+              "type": "SATA",
+              "part_id": 265,
+              "required": 0,
+              "part_cells": 1
+            },
+            {
+              "params": {},
+              "type": "SATA",
+              "part_id": null,
+              "required": 0
+            },
+            {
+              "params": {},
+              "required": 0,
+              "type": "SATA",
+              "part_id": null
+            },
+            {
+              "params": {},
+              "part_id": null,
+              "type": "SATA",
+              "required": 0
+            }
+          ]
+        },
+        "RAM": {
+          "interfaces": [
+            {
+              "required": 1,
+              "part_id": 266,
+              "type": "DDR4",
+              "params": {
+                "capacity": [
+                  32
+                ],
+                "units": "GB"
+              },
+              "part_cells": 0
+            },
+            {
+              "type": "DDR4",
+              "part_id": null,
+              "required": 0,
+              "params": {
+                "capacity": [
+                  32
+                ],
+                "units": "GB"
+              }
+            },
+            {
+              "params": {
+                "capacity": [
+                  32
+                ],
+                "units": "GB"
+              },
+              "type": "DDR4",
+              "part_id": null,
+              "required": 0
+            },
+            {
+              "required": 0,
+              "type": "DDR4",
+              "part_id": null,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32
+                ]
+              }
+            }
+          ]
+        },
+        "BUS": {
+          "interfaces": [
+            {
+              "part_id": null,
+              "type": "PCIe",
+              "required": 0,
+              "params": {
+                "size": [
+                  "1U",
+                  "2U",
+                  "3U"
+                ],
+                "capacity": [
+                  16,
+                  8,
+                  4,
+                  2
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "baskets": [
+        2,
+        2
+      ],
+      "cells": {
+        "count": 4,
+        "max_parts": 2,
+        "free": 4
+      }
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 332,
+    "name": "US-X11",
+    "currency_id": 3,
+    "price": 45,
+    "description": "Xeon E3-1230v5, 4 core, 3.4GHz, RAM 16-64Gb, drive 250Gb - 32Tb",
+    "class": "container",
+    "class_desc": {
+      "cells": {
+        "count": 4,
+        "max_parts": 4,
+        "free": 4
+      },
+      "categories": {
+        "BUS": {
+          "interfaces": [
+            {
+              "params": {
+                "size": [
+                  "1U",
+                  "2U",
+                  "3U"
+                ],
+                "capacity": [
+                  16,
+                  8,
+                  4,
+                  2
+                ]
+              },
+              "required": 0,
+              "type": "PCIe",
+              "part_id": null
+            }
+          ]
+        },
+        "RAM": {
+          "interfaces": [
+            {
+              "required": 1,
+              "params": {
+                "capacity": [
+                  16
+                ],
+                "units": "GB"
+              },
+              "type": "DDR4",
+              "part_id": 281,
+              "part_cells": 0
+            },
+            {
+              "required": 0,
+              "params": {
+                "capacity": [
+                  16
+                ],
+                "units": "GB"
+              },
+              "type": "DDR4",
+              "part_id": null
+            },
+            {
+              "required": 0,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  16
+                ]
+              },
+              "part_id": null,
+              "type": "DDR4"
+            },
+            {
+              "params": {
+                "capacity": [
+                  16
+                ],
+                "units": "GB"
+              },
+              "required": 0,
+              "type": "DDR4",
+              "part_id": null
+            }
+          ]
+        },
+        "DRIVES": {
+          "interfaces": [
+            {
+              "required": 1,
+              "params": {},
+              "part_id": 286,
+              "type": "SATA",
+              "part_cells": 1
+            },
+            {
+              "type": "SATA",
+              "part_id": null,
+              "params": {},
+              "required": 0
+            },
+            {
+              "type": "SATA",
+              "part_id": null,
+              "params": {},
+              "required": 0
+            },
+            {
+              "part_id": null,
+              "type": "SATA",
+              "params": {},
+              "required": 0
+            }
+          ]
+        }
+      }
+    },
+    "dcs": [
+      5
+    ]
+  },
+  {
+    "id": 365,
+    "name": "NL-12X12",
+    "currency_id": 3,
+    "price": 173,
+    "description": "Xeon Silver 4310, 12 core, 2.1GHz, RAM 32-512GB, 250GB - 54TB",
+    "class": "container",
+    "class_desc": {
+      "cells": {
+        "max_parts": 4,
+        "count": 6,
+        "free": 6
+      },
+      "baskets": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "categories": {
+        "RAM": {
+          "pairing": 1,
+          "interfaces": [
+            {
+              "required": 1,
+              "type": "DDR4 REG",
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "part_id": 325,
+              "part_cells": 0
+            },
+            {
+              "part_id": null,
+              "required": 0,
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "type": "DDR4 REG"
+            },
+            {
+              "required": 0,
+              "type": "DDR4 REG",
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "part_id": null
+            },
+            {
+              "required": 0,
+              "type": "DDR4 REG",
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "part_id": null
+            },
+            {
+              "part_id": null,
+              "required": 0,
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "type": "DDR4 REG"
+            },
+            {
+              "type": "DDR4 REG",
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "required": 0,
+              "part_id": null
+            },
+            {
+              "required": 0,
+              "type": "DDR4 REG",
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "part_id": null
+            },
+            {
+              "type": "DDR4 REG",
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "required": 0,
+              "part_id": null
+            }
+          ]
+        },
+        "DRIVES": {
+          "interfaces": [
+            {
+              "type": "M.2",
+              "params": {},
+              "required": 0,
+              "part_id": null
+            },
+            {
+              "part_id": 265,
+              "type": "SATA",
+              "params": {},
+              "required": 0,
+              "part_cells": 1
+            },
+            {
+              "required": 0,
+              "params": {},
+              "type": "SATA",
+              "part_id": null
+            },
+            {
+              "type": "SATA",
+              "params": {},
+              "required": 0,
+              "part_id": null
+            },
+            {
+              "part_id": null,
+              "required": 0,
+              "type": "SATA",
+              "params": {}
+            }
+          ]
+        },
+        "BUS": {
+          "interfaces": [
+            {
+              "part_id": null,
+              "type": "PCIe",
+              "params": {
+                "size": [
+                  "1U",
+                  "2U"
+                ],
+                "capacity": [
+                  16,
+                  8,
+                  4,
+                  2
+                ]
+              },
+              "required": 0
+            }
+          ]
+        }
+      }
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 366,
+    "name": "NL-16X12",
+    "currency_id": 3,
+    "price": 191,
+    "description": "Xeon Silver 4314, 16 core, 2.4GHz, RAM 32-512GB, 250GB - 54TB",
+    "class": "container",
+    "class_desc": {
+      "baskets": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "cells": {
+        "max_parts": 4,
+        "count": 6,
+        "free": 6
+      },
+      "categories": {
+        "RAM": {
+          "pairing": 1,
+          "interfaces": [
+            {
+              "type": "DDR4 REG",
+              "part_id": 325,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "required": 1,
+              "part_cells": 0
+            },
+            {
+              "required": 0,
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "part_id": null,
+              "type": "DDR4 REG"
+            },
+            {
+              "type": "DDR4 REG",
+              "part_id": null,
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "required": 0
+            },
+            {
+              "type": "DDR4 REG",
+              "part_id": null,
+              "required": 0,
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              }
+            },
+            {
+              "type": "DDR4 REG",
+              "part_id": null,
+              "required": 0,
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              }
+            },
+            {
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "required": 0,
+              "type": "DDR4 REG",
+              "part_id": null
+            },
+            {
+              "type": "DDR4 REG",
+              "part_id": null,
+              "required": 0,
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              }
+            },
+            {
+              "part_id": null,
+              "type": "DDR4 REG",
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "required": 0
+            }
+          ]
+        },
+        "BUS": {
+          "interfaces": [
+            {
+              "type": "PCIe",
+              "part_id": null,
+              "params": {
+                "capacity": [
+                  16,
+                  8,
+                  4,
+                  2
+                ],
+                "size": [
+                  "1U",
+                  "2U"
+                ]
+              },
+              "required": 0
+            }
+          ]
+        },
+        "DRIVES": {
+          "interfaces": [
+            {
+              "required": 0,
+              "params": {},
+              "type": "M.2",
+              "part_id": null
+            },
+            {
+              "required": 0,
+              "params": {},
+              "type": "SATA",
+              "part_id": 265,
+              "part_cells": 1
+            },
+            {
+              "required": 0,
+              "params": {},
+              "type": "SATA",
+              "part_id": null
+            },
+            {
+              "required": 0,
+              "params": {},
+              "part_id": null,
+              "type": "SATA"
+            },
+            {
+              "type": "SATA",
+              "part_id": null,
+              "required": 0,
+              "params": {}
+            }
+          ]
+        }
+      }
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 394,
+    "name": "US-8X12",
+    "currency_id": 3,
+    "price": 120,
+    "description": "Xeon E-2378G, 8 core, 2.8GHz, RAM 32-128Gb, drive 250Gb - 34Tb",
+    "class": "container",
+    "class_desc": {
+      "cells": {
+        "max_parts": 2,
+        "count": 4,
+        "free": 3
+      },
+      "baskets": [
+        2,
+        2
+      ],
+      "categories": {
+        "BUS": {
+          "interfaces": [
+            {
+              "type": "PCIe",
+              "params": {
+                "capacity": [
+                  16,
+                  8,
+                  4,
+                  2
+                ],
+                "size": [
+                  "1U",
+                  "2U",
+                  "3U"
+                ]
+              },
+              "part_id": null,
+              "required": 0
+            }
+          ]
+        },
+        "RAM": {
+          "interfaces": [
+            {
+              "type": "DDR4",
+              "params": {
+                "capacity": [
+                  32
+                ],
+                "units": "GB"
+              },
+              "part_id": 282,
+              "required": 1,
+              "part_cells": 0
+            },
+            {
+              "required": 0,
+              "part_id": null,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32
+                ]
+              },
+              "type": "DDR4"
+            },
+            {
+              "required": 0,
+              "part_id": null,
+              "params": {
+                "capacity": [
+                  32
+                ],
+                "units": "GB"
+              },
+              "type": "DDR4"
+            },
+            {
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32
+                ]
+              },
+              "type": "DDR4",
+              "required": 0,
+              "part_id": null
+            }
+          ]
+        },
+        "DRIVES": {
+          "interfaces": [
+            {
+              "type": "M.2",
+              "params": {},
+              "part_id": null,
+              "required": 0
+            },
+            {
+              "part_id": 286,
+              "required": 0,
+              "type": "SATA",
+              "params": {},
+              "part_cells": 1
+            },
+            {
+              "required": 0,
+              "part_id": null,
+              "params": {},
+              "type": "SATA"
+            },
+            {
+              "type": "SATA",
+              "params": {},
+              "part_id": null,
+              "required": 0
+            },
+            {
+              "required": 0,
+              "part_id": null,
+              "params": {},
+              "type": "SATA"
+            }
+          ]
+        }
+      }
+    },
+    "dcs": [
+      5
+    ]
+  },
+  {
+    "id": 396,
+    "name": "UA-16X12",
+    "currency_id": 3,
+    "price": 181,
+    "description": "Xeon Silver 4314, 16 core, 2.4GHz, RAM 32-512GB, 250GB - 54TB",
+    "class": "container",
+    "class_desc": {
+      "categories": {
+        "RAM": {
+          "interfaces": [
+            {
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "required": 1,
+              "part_id": 321,
+              "type": "DDR4 REG",
+              "part_cells": 0
+            },
+            {
+              "required": 0,
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "part_id": null,
+              "type": "DDR4 REG"
+            },
+            {
+              "type": "DDR4 REG",
+              "part_id": null,
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "required": 0
+            },
+            {
+              "type": "DDR4 REG",
+              "part_id": null,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "required": 0
+            },
+            {
+              "part_id": null,
+              "type": "DDR4 REG",
+              "required": 0,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              }
+            },
+            {
+              "part_id": null,
+              "type": "DDR4 REG",
+              "required": 0,
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              }
+            },
+            {
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "required": 0,
+              "part_id": null,
+              "type": "DDR4 REG"
+            },
+            {
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "required": 0,
+              "part_id": null,
+              "type": "DDR4 REG"
+            },
+            {
+              "required": 0,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "part_id": null,
+              "type": "DDR4 REG"
+            },
+            {
+              "type": "DDR4 REG",
+              "part_id": null,
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "required": 0
+            },
+            {
+              "part_id": null,
+              "type": "DDR4 REG",
+              "required": 0,
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              }
+            },
+            {
+              "type": "DDR4 REG",
+              "part_id": null,
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "required": 0
+            },
+            {
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "required": 0,
+              "part_id": null,
+              "type": "DDR4 REG"
+            },
+            {
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "required": 0,
+              "type": "DDR4 REG",
+              "part_id": null
+            },
+            {
+              "type": "DDR4 REG",
+              "part_id": null,
+              "required": 0,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              }
+            },
+            {
+              "type": "DDR4 REG",
+              "part_id": null,
+              "required": 0,
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              }
+            }
+          ],
+          "pairing": 1
+        },
+        "BUS": {
+          "interfaces": [
+            {
+              "type": "PCIe",
+              "part_id": null,
+              "required": 0,
+              "params": {
+                "size": [
+                  "1U",
+                  "2U"
+                ],
+                "capacity": [
+                  16,
+                  8,
+                  4,
+                  2
+                ]
+              }
+            }
+          ]
+        },
+        "DRIVES": {
+          "interfaces": [
+            {
+              "required": 0,
+              "params": {},
+              "part_id": null,
+              "type": "M.2"
+            },
+            {
+              "required": 0,
+              "params": {},
+              "part_id": 241,
+              "type": "SATA",
+              "part_cells": 1
+            },
+            {
+              "required": 0,
+              "params": {},
+              "type": "SATA",
+              "part_id": null
+            },
+            {
+              "required": 0,
+              "params": {},
+              "type": "SATA",
+              "part_id": null
+            },
+            {
+              "params": {},
+              "required": 0,
+              "type": "SATA",
+              "part_id": null
+            }
+          ]
+        }
+      },
+      "baskets": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "cells": {
+        "count": 6,
+        "max_parts": 4,
+        "free": 6
+      }
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 398,
+    "name": "UA-12X12",
+    "currency_id": 3,
+    "price": 166,
+    "description": "Xeon Silver 4310, 12 core, 2.1GHz, RAM 32-512GB, 250GB - 54TB",
+    "class": "container",
+    "class_desc": {
+      "baskets": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "cells": {
+        "max_parts": 4,
+        "count": 6,
+        "free": 6
+      },
+      "categories": {
+        "DRIVES": {
+          "interfaces": [
+            {
+              "type": "M.2",
+              "params": {},
+              "required": 0,
+              "part_id": null
+            },
+            {
+              "part_id": 241,
+              "required": 0,
+              "params": {},
+              "type": "SATA",
+              "part_cells": 1
+            },
+            {
+              "type": "SATA",
+              "part_id": null,
+              "params": {},
+              "required": 0
+            },
+            {
+              "params": {},
+              "required": 0,
+              "part_id": null,
+              "type": "SATA"
+            },
+            {
+              "type": "SATA",
+              "part_id": null,
+              "required": 0,
+              "params": {}
+            }
+          ]
+        },
+        "RAM": {
+          "interfaces": [
+            {
+              "part_id": 321,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "required": 1,
+              "type": "DDR4 REG",
+              "part_cells": 0
+            },
+            {
+              "type": "DDR4 REG",
+              "required": 0,
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "part_id": null
+            },
+            {
+              "type": "DDR4 REG",
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "required": 0,
+              "part_id": null
+            },
+            {
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "required": 0,
+              "part_id": null,
+              "type": "DDR4 REG"
+            },
+            {
+              "type": "DDR4 REG",
+              "part_id": null,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "required": 0
+            },
+            {
+              "type": "DDR4 REG",
+              "required": 0,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "part_id": null
+            },
+            {
+              "required": 0,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "part_id": null,
+              "type": "DDR4 REG"
+            },
+            {
+              "type": "DDR4 REG",
+              "part_id": null,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "required": 0
+            },
+            {
+              "part_id": null,
+              "required": 0,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "type": "DDR4 REG"
+            },
+            {
+              "part_id": null,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "required": 0,
+              "type": "DDR4 REG"
+            },
+            {
+              "part_id": null,
+              "required": 0,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "type": "DDR4 REG"
+            },
+            {
+              "type": "DDR4 REG",
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "required": 0,
+              "part_id": null
+            },
+            {
+              "required": 0,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "part_id": null,
+              "type": "DDR4 REG"
+            },
+            {
+              "type": "DDR4 REG",
+              "required": 0,
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "part_id": null
+            },
+            {
+              "part_id": null,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "required": 0,
+              "type": "DDR4 REG"
+            },
+            {
+              "type": "DDR4 REG",
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "required": 0,
+              "part_id": null
+            }
+          ],
+          "pairing": 1
+        },
+        "BUS": {
+          "interfaces": [
+            {
+              "type": "PCIe",
+              "part_id": null,
+              "params": {
+                "capacity": [
+                  16,
+                  8,
+                  4,
+                  2
+                ],
+                "size": [
+                  "1U",
+                  "2U"
+                ]
+              },
+              "required": 0
+            }
+          ]
+        }
+      }
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 407,
+    "name": "UA-10X11",
+    "currency_id": 3,
+    "price": 113,
+    "description": "Xeon Silver 4210, 10 core, 2.2GHz, RAM 32-512GB, 250GB - 54TB",
+    "class": "container",
+    "class_desc": {
+      "categories": {
+        "RAM": {
+          "pairing": 1,
+          "interfaces": [
+            {
+              "required": 1,
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "part_id": 321,
+              "type": "DDR4 REG",
+              "part_cells": 0
+            },
+            {
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "required": 0,
+              "type": "DDR4 REG",
+              "part_id": null
+            },
+            {
+              "part_id": null,
+              "type": "DDR4 REG",
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "required": 0
+            },
+            {
+              "part_id": null,
+              "type": "DDR4 REG",
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "required": 0
+            },
+            {
+              "required": 0,
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "part_id": null,
+              "type": "DDR4 REG"
+            },
+            {
+              "required": 0,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "part_id": null,
+              "type": "DDR4 REG"
+            },
+            {
+              "type": "DDR4 REG",
+              "part_id": null,
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "required": 0
+            },
+            {
+              "part_id": null,
+              "type": "DDR4 REG",
+              "required": 0,
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              }
+            },
+            {
+              "type": "DDR4 REG",
+              "part_id": null,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "required": 0
+            },
+            {
+              "type": "DDR4 REG",
+              "part_id": null,
+              "required": 0,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              }
+            },
+            {
+              "required": 0,
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "part_id": null,
+              "type": "DDR4 REG"
+            },
+            {
+              "part_id": null,
+              "type": "DDR4 REG",
+              "required": 0,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              }
+            },
+            {
+              "required": 0,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "type": "DDR4 REG",
+              "part_id": null
+            },
+            {
+              "required": 0,
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              },
+              "type": "DDR4 REG",
+              "part_id": null
+            },
+            {
+              "part_id": null,
+              "type": "DDR4 REG",
+              "required": 0,
+              "params": {
+                "capacity": [
+                  32,
+                  64
+                ],
+                "units": "GB"
+              }
+            },
+            {
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32,
+                  64
+                ]
+              },
+              "required": 0,
+              "part_id": null,
+              "type": "DDR4 REG"
+            }
+          ]
+        },
+        "BUS": {
+          "interfaces": [
+            {
+              "part_id": null,
+              "type": "PCIe",
+              "required": 0,
+              "params": {
+                "capacity": [
+                  16,
+                  8,
+                  4,
+                  2
+                ],
+                "size": [
+                  "1U",
+                  "2U"
+                ]
+              }
+            }
+          ]
+        },
+        "DRIVES": {
+          "interfaces": [
+            {
+              "required": 0,
+              "params": {},
+              "type": "M.2",
+              "part_id": null
+            },
+            {
+              "type": "SATA",
+              "part_id": 241,
+              "required": 0,
+              "params": {},
+              "part_cells": 1
+            },
+            {
+              "required": 0,
+              "params": {},
+              "type": "SATA",
+              "part_id": null
+            },
+            {
+              "part_id": null,
+              "type": "SATA",
+              "required": 0,
+              "params": {}
+            },
+            {
+              "type": "SATA",
+              "part_id": null,
+              "params": {},
+              "required": 0
+            }
+          ]
+        }
+      },
+      "baskets": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "cells": {
+        "max_parts": 4,
+        "count": 6,
+        "free": 6
+      }
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 416,
+    "name": "UA-SIX13",
+    "currency_id": 3,
+    "price": 225,
+    "description": "1-2 Intel CPU, 12-32 cores, RAM 64-512Gb, drive 250Gb - 78Tb",
+    "class": "container",
+    "class_desc": {
+      "cells": {
+        "max_parts": 10,
+        "count": 10,
+        "free": 9
+      },
+      "categories": {
+        "DRIVES": {
+          "interfaces": [
+            {
+              "part_id": null,
+              "type": "M.2",
+              "required": 0,
+              "params": {}
+            },
+            {
+              "type": "SATA",
+              "part_id": 241,
+              "params": {},
+              "required": 0,
+              "part_cells": 1
+            },
+            {
+              "params": {},
+              "required": 0,
+              "part_id": null,
+              "type": "SATA"
+            },
+            {
+              "part_id": null,
+              "type": "SATA",
+              "params": {},
+              "required": 0
+            },
+            {
+              "required": 0,
+              "params": {},
+              "type": "SATA",
+              "part_id": null
+            },
+            {
+              "params": {},
+              "required": 0,
+              "part_id": null,
+              "type": "SATA"
+            },
+            {
+              "part_id": null,
+              "type": "SATA",
+              "required": 0,
+              "params": {}
+            },
+            {
+              "required": 0,
+              "params": {},
+              "part_id": null,
+              "type": "SATA"
+            },
+            {
+              "required": 0,
+              "params": {},
+              "type": "SATA",
+              "part_id": null
+            },
+            {
+              "params": {},
+              "required": 0,
+              "part_id": null,
+              "type": "SATA"
+            },
+            {
+              "params": {},
+              "required": 0,
+              "type": "SATA",
+              "part_id": null
+            }
+          ]
+        },
+        "BUS": {
+          "interfaces": [
+            {
+              "required": 0,
+              "params": {
+                "capacity": [
+                  16,
+                  8,
+                  4,
+                  2
+                ],
+                "size": [
+                  "1U",
+                  "2U"
+                ]
+              },
+              "type": "PCIe",
+              "part_id": null
+            },
+            {
+              "params": {
+                "capacity": [
+                  16,
+                  8,
+                  4,
+                  2
+                ],
+                "size": [
+                  "1U",
+                  "2U"
+                ]
+              },
+              "required": 0,
+              "type": "PCIe",
+              "part_id": null
+            },
+            {
+              "part_id": null,
+              "type": "PCIe",
+              "params": {
+                "size": [
+                  "1U",
+                  "2U"
+                ],
+                "capacity": [
+                  16,
+                  8,
+                  4,
+                  2
+                ]
+              },
+              "required": 0
+            },
+            {
+              "params": {
+                "size": [
+                  "1U",
+                  "2U"
+                ],
+                "capacity": [
+                  16,
+                  8,
+                  4,
+                  2
+                ]
+              },
+              "required": 0,
+              "part_id": null,
+              "type": "PCIe"
+            }
+          ]
+        },
+        "RAM": {
+          "pairing": 1,
+          "interfaces": [
+            {
+              "part_id": 412,
+              "type": "DDR5 REG",
+              "required": 1,
+              "params": {
+                "capacity": [
+                  64
+                ],
+                "units": "GB"
+              },
+              "part_cells": 0
+            },
+            {
+              "required": 0,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  64
+                ]
+              },
+              "type": "DDR5 REG",
+              "part_id": null
+            },
+            {
+              "type": "DDR5 REG",
+              "part_id": null,
+              "required": 0,
+              "params": {
+                "capacity": [
+                  64
+                ],
+                "units": "GB"
+              }
+            },
+            {
+              "type": "DDR5 REG",
+              "part_id": null,
+              "params": {
+                "capacity": [
+                  64
+                ],
+                "units": "GB"
+              },
+              "required": 0
+            },
+            {
+              "type": "DDR5 REG",
+              "part_id": null,
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  64
+                ]
+              },
+              "required": 0
+            },
+            {
+              "part_id": null,
+              "type": "DDR5 REG",
+              "required": 0,
+              "params": {
+                "capacity": [
+                  64
+                ],
+                "units": "GB"
+              }
+            },
+            {
+              "type": "DDR5 REG",
+              "part_id": null,
+              "required": 0,
+              "params": {
+                "capacity": [
+                  64
+                ],
+                "units": "GB"
+              }
+            },
+            {
+              "params": {
+                "capacity": [
+                  64
+                ],
+                "units": "GB"
+              },
+              "required": 0,
+              "part_id": null,
+              "type": "DDR5 REG"
+            }
+          ]
+        },
+        "CPU": {
+          "interfaces": [
+            {
+              "part_id": 413,
+              "type": "LGA4677",
+              "required": 1,
+              "params": {
+                "model": [
+                  "Silver 4510",
+                  "Silver 4514Y"
+                ]
+              },
+              "part_cells": 0
+            },
+            {
+              "required": 0,
+              "params": {
+                "model": [
+                  "Silver 4510",
+                  "Silver 4514Y"
+                ]
+              },
+              "type": "LGA4677",
+              "part_id": null
+            }
+          ]
+        }
+      }
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 422,
+    "name": "UA-8X13",
+    "currency_id": 3,
+    "price": 93,
+    "description": "Xeon E-2468, 8 core, 2.6-5.2 GHz, RAM 32-128Gb, drive 250Gb-34Tb",
+    "class": "container",
+    "class_desc": {
+      "cells": {
+        "count": 4,
+        "max_parts": 4,
+        "free": 3
+      },
+      "categories": {
+        "BUS": {
+          "interfaces": [
+            {
+              "params": {
+                "capacity": [
+                  16,
+                  8,
+                  4,
+                  2
+                ],
+                "size": [
+                  "1U",
+                  "2U",
+                  "3U"
+                ]
+              },
+              "part_id": null,
+              "type": "PCIe",
+              "required": 0
+            }
+          ]
+        },
+        "RAM": {
+          "interfaces": [
+            {
+              "required": 1,
+              "part_id": 420,
+              "params": {
+                "capacity": [
+                  32
+                ],
+                "units": "GB"
+              },
+              "type": "DDR5",
+              "part_cells": 0
+            },
+            {
+              "params": {
+                "capacity": [
+                  32
+                ],
+                "units": "GB"
+              },
+              "part_id": null,
+              "type": "DDR5",
+              "required": 0
+            },
+            {
+              "type": "DDR5",
+              "params": {
+                "capacity": [
+                  32
+                ],
+                "units": "GB"
+              },
+              "part_id": null,
+              "required": 0
+            },
+            {
+              "params": {
+                "units": "GB",
+                "capacity": [
+                  32
+                ]
+              },
+              "part_id": null,
+              "type": "DDR5",
+              "required": 0
+            }
+          ]
+        },
+        "DRIVES": {
+          "interfaces": [
+            {
+              "params": {},
+              "part_id": null,
+              "type": "M.2",
+              "required": 0
+            },
+            {
+              "type": "SATA",
+              "params": {},
+              "part_id": 241,
+              "required": 0,
+              "part_cells": 1
+            },
+            {
+              "required": 0,
+              "params": {},
+              "part_id": null,
+              "type": "SATA"
+            },
+            {
+              "type": "SATA",
+              "params": {},
+              "part_id": null,
+              "required": 0
+            },
+            {
+              "params": {},
+              "part_id": null,
+              "type": "SATA",
+              "required": 0
+            }
+          ]
+        }
+      }
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 239,
+    "name": "UA-X11-RAM DDR4 16GB",
+    "currency_id": 3,
+    "price": 4,
+    "description": "DDR4 16 GB",
+    "class": "part",
+    "class_desc": {
+      "interface_type": "DDR4",
+      "extend": {},
+      "cells": 0,
+      "params": {
+        "capacity": 16,
+        "units": "GB"
+      },
+      "category": "RAM"
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 240,
+    "name": "UA-X11-RAM DDR4 32GB",
+    "currency_id": 3,
+    "price": 7,
+    "description": "DDR4 32 GB",
+    "class": "part",
+    "class_desc": {
+      "interface_type": "DDR4",
+      "params": {
+        "units": "GB",
+        "capacity": 32
+      },
+      "extend": {},
+      "cells": 0,
+      "category": "RAM"
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 241,
+    "name": "UA-SSD 250 GB",
+    "currency_id": 3,
+    "price": 2,
+    "description": "SSD 250 GB",
+    "class": "part",
+    "class_desc": {
+      "interface_type": "SATA",
+      "extend": {},
+      "category": "DRIVES",
+      "cells": 1,
+      "params": {}
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 242,
+    "name": "UA-HDD 4TB",
+    "currency_id": 3,
+    "price": 10,
+    "description": "HDD 4 TB",
+    "class": "part",
+    "class_desc": {
+      "interface_type": "SATA",
+      "params": {},
+      "category": "DRIVES",
+      "cells": 2,
+      "extend": {}
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 243,
+    "name": "UA-NVMe 500GB",
+    "currency_id": 3,
+    "price": 4,
+    "description": "NVMe 500 GB",
+    "class": "part",
+    "class_desc": {
+      "params": {},
+      "interface_type": "M.2",
+      "cells": 0,
+      "extend": {},
+      "category": "DRIVES"
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 244,
+    "name": "UA-2xNMVe AOC-SLG3-2M2",
+    "currency_id": 3,
+    "price": 6,
+    "description": "2xNVMe controller",
+    "class": "part",
+    "class_desc": {
+      "interface_type": "PCIe",
+      "category": "BUS",
+      "params": {
+        "capacity": 8,
+        "size": "2U"
+      },
+      "cells": 0,
+      "extend": {
+        "DRIVES": {
+          "interfaces": [
+            {
+              "required": 1,
+              "type": "M.2",
+              "part_id": null,
+              "params": {}
+            },
+            {
+              "type": "M.2",
+              "part_id": null,
+              "params": {},
+              "required": 0
+            }
+          ]
+        }
+      }
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 245,
+    "name": "UA-RAID controller 4xSATA ports",
+    "currency_id": 3,
+    "price": 32,
+    "description": "RAID controller 4xSATA ports",
+    "class": "part",
+    "class_desc": {
+      "extend": {
+        "DRIVES": {
+          "interfaces": [
+            {
+              "type": "SATA",
+              "required": 1,
+              "params": {},
+              "part_id": null
+            },
+            {
+              "params": {},
+              "required": 0,
+              "type": "SATA",
+              "part_id": null
+            },
+            {
+              "type": "SATA",
+              "required": 0,
+              "params": {},
+              "part_id": null
+            },
+            {
+              "params": {},
+              "required": 0,
+              "type": "SATA",
+              "part_id": null
+            }
+          ]
+        }
+      },
+      "category": "BUS",
+      "interface_type": "PCIe",
+      "cells": 0,
+      "params": {
+        "size": "2U",
+        "capacity": 8
+      }
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 250,
+    "name": "US-HDD 8TB",
+    "currency_id": 3,
+    "price": 10,
+    "description": "HDD 8 TB",
+    "class": "part",
+    "class_desc": {
+      "category": "DRIVES",
+      "params": {},
+      "extend": {},
+      "cells": 2,
+      "interface_type": "SATA"
+    },
+    "dcs": [
+      5
+    ]
+  },
+  {
+    "id": 251,
+    "name": "UA-NVMe 1 TB",
+    "currency_id": 3,
+    "price": 6,
+    "description": "NVMe 1 TB",
+    "class": "part",
+    "class_desc": {
+      "cells": 0,
+      "category": "DRIVES",
+      "extend": {},
+      "params": {},
+      "interface_type": "M.2"
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 252,
+    "name": "UA-SSD 500 GB",
+    "currency_id": 3,
+    "price": 5,
+    "description": "SSD 500 GB",
+    "class": "part",
+    "class_desc": {
+      "extend": {},
+      "params": {},
+      "category": "DRIVES",
+      "interface_type": "SATA",
+      "cells": 1
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 253,
+    "name": "UA-HDD 12TB",
+    "currency_id": 3,
+    "price": 19,
+    "description": "HDD 12 TB",
+    "class": "part",
+    "class_desc": {
+      "extend": {},
+      "cells": 2,
+      "category": "DRIVES",
+      "params": {},
+      "interface_type": "SATA"
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 254,
+    "name": "UA-SSD 1 TB",
+    "currency_id": 3,
+    "price": 7,
+    "description": "SSD 1 TB",
+    "class": "part",
+    "class_desc": {
+      "cells": 1,
+      "params": {},
+      "extend": {},
+      "interface_type": "SATA",
+      "category": "DRIVES"
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 255,
+    "name": "UA-SSD 2 TB",
+    "currency_id": 3,
+    "price": 13,
+    "description": "SSD 2 TB",
+    "class": "part",
+    "class_desc": {
+      "params": {},
+      "cells": 1,
+      "interface_type": "SATA",
+      "extend": {},
+      "category": "DRIVES"
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 264,
+    "name": "NL-SSD 1 TB",
+    "currency_id": 3,
+    "price": 8,
+    "description": "SSD 1 TB",
+    "class": "part",
+    "class_desc": {
+      "category": "DRIVES",
+      "cells": 1,
+      "params": {},
+      "interface_type": "SATA",
+      "extend": {}
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 265,
+    "name": "NL-SSD 250GB",
+    "currency_id": 3,
+    "price": 3,
+    "description": "SSD 250 GB",
+    "class": "part",
+    "class_desc": {
+      "params": {},
+      "cells": 1,
+      "interface_type": "SATA",
+      "extend": {},
+      "category": "DRIVES"
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 266,
+    "name": "NL-X11-RAM DDR4 32GB",
+    "currency_id": 3,
+    "price": 10,
+    "description": "DDR4 32 GB",
+    "class": "part",
+    "class_desc": {
+      "params": {
+        "capacity": 32,
+        "units": "GB"
+      },
+      "cells": 0,
+      "interface_type": "DDR4",
+      "category": "RAM",
+      "extend": {}
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 267,
+    "name": "NL-SSD 2 TB",
+    "currency_id": 3,
+    "price": 16,
+    "description": "SSD 2 TB",
+    "class": "part",
+    "class_desc": {
+      "category": "DRIVES",
+      "extend": {},
+      "cells": 1,
+      "params": {},
+      "interface_type": "SATA"
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 268,
+    "name": "NL-HDD 4TB",
+    "currency_id": 3,
+    "price": 13,
+    "description": "HDD 4 TB",
+    "class": "part",
+    "class_desc": {
+      "interface_type": "SATA",
+      "category": "DRIVES",
+      "cells": 2,
+      "params": {},
+      "extend": {}
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 269,
+    "name": "NL-HDD 8TB",
+    "currency_id": 3,
+    "price": 19,
+    "description": "HDD 8 TB",
+    "class": "part",
+    "class_desc": {
+      "category": "DRIVES",
+      "interface_type": "SATA",
+      "params": {},
+      "cells": 2,
+      "extend": {}
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 271,
+    "name": "NL-SSD 500GB",
+    "currency_id": 3,
+    "price": 5,
+    "description": "SSD 500 GB",
+    "class": "part",
+    "class_desc": {
+      "extend": {},
+      "interface_type": "SATA",
+      "params": {},
+      "category": "DRIVES",
+      "cells": 1
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 272,
+    "name": "NL-NVMe 500GB",
+    "currency_id": 3,
+    "price": 4,
+    "description": "NVMe 500 GB",
+    "class": "part",
+    "class_desc": {
+      "extend": {},
+      "category": "DRIVES",
+      "cells": 0,
+      "params": {},
+      "interface_type": "M.2"
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 273,
+    "name": "NL-NVMe 1 TB",
+    "currency_id": 3,
+    "price": 7,
+    "description": "NVMe 1 TB",
+    "class": "part",
+    "class_desc": {
+      "extend": {},
+      "cells": 0,
+      "params": {},
+      "interface_type": "M.2",
+      "category": "DRIVES"
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 274,
+    "name": "NL-2xNMVe AOC-SLG3-2M2",
+    "currency_id": 3,
+    "price": 6,
+    "description": "2xNVMe controller",
+    "class": "part",
+    "class_desc": {
+      "params": {
+        "capacity": 8,
+        "size": "2U"
+      },
+      "interface_type": "PCIe",
+      "extend": {
+        "DRIVES": {
+          "interfaces": [
+            {
+              "part_id": null,
+              "params": {},
+              "required": 1,
+              "type": "M.2"
+            },
+            {
+              "part_id": null,
+              "required": 0,
+              "type": "M.2",
+              "params": {}
+            }
+          ]
+        }
+      },
+      "cells": 0,
+      "category": "BUS"
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 281,
+    "name": "US-X11-RAM DDR4 16GB",
+    "currency_id": 3,
+    "price": 4,
+    "description": "DDR4 16 GB",
+    "class": "part",
+    "class_desc": {
+      "extend": {},
+      "interface_type": "DDR4",
+      "params": {
+        "units": "GB",
+        "capacity": 16
+      },
+      "category": "RAM",
+      "cells": 0
+    },
+    "dcs": [
+      5
+    ]
+  },
+  {
+    "id": 282,
+    "name": "US-X11-RAM DDR4 32GB",
+    "currency_id": 3,
+    "price": 9,
+    "description": "DDR4 32 GB",
+    "class": "part",
+    "class_desc": {
+      "params": {
+        "capacity": 32,
+        "units": "GB"
+      },
+      "extend": {},
+      "cells": 0,
+      "category": "RAM",
+      "interface_type": "DDR4"
+    },
+    "dcs": [
+      5
+    ]
+  },
+  {
+    "id": 283,
+    "name": "US-HDD 4TB",
+    "currency_id": 3,
+    "price": 9,
+    "description": "HDD 4 TB",
+    "class": "part",
+    "class_desc": {
+      "params": {},
+      "interface_type": "SATA",
+      "extend": {},
+      "cells": 2,
+      "category": "DRIVES"
+    },
+    "dcs": [
+      5
+    ]
+  },
+  {
+    "id": 284,
+    "name": "UA-HDD 8TB",
+    "currency_id": 3,
+    "price": 14,
+    "description": "HDD 8 TB",
+    "class": "part",
+    "class_desc": {
+      "category": "DRIVES",
+      "extend": {},
+      "cells": 2,
+      "params": {},
+      "interface_type": "SATA"
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 285,
+    "name": "US-HDD 12TB",
+    "currency_id": 3,
+    "price": 27,
+    "description": "HDD 12 TB",
+    "class": "part",
+    "class_desc": {
+      "extend": {},
+      "cells": 2,
+      "interface_type": "SATA",
+      "params": {},
+      "category": "DRIVES"
+    },
+    "dcs": [
+      5
+    ]
+  },
+  {
+    "id": 286,
+    "name": "US-SSD 250GB",
+    "currency_id": 3,
+    "price": 4,
+    "description": "SSD 250 GB",
+    "class": "part",
+    "class_desc": {
+      "params": {},
+      "extend": {},
+      "category": "DRIVES",
+      "cells": 1,
+      "interface_type": "SATA"
+    },
+    "dcs": [
+      5
+    ]
+  },
+  {
+    "id": 287,
+    "name": "US-SSD 500GB",
+    "currency_id": 3,
+    "price": 5,
+    "description": "SSD 500 GB",
+    "class": "part",
+    "class_desc": {
+      "cells": 1,
+      "extend": {},
+      "interface_type": "SATA",
+      "category": "DRIVES",
+      "params": {}
+    },
+    "dcs": [
+      5
+    ]
+  },
+  {
+    "id": 288,
+    "name": "US-SSD 1TB",
+    "currency_id": 3,
+    "price": 6,
+    "description": "SSD 1 TB",
+    "class": "part",
+    "class_desc": {
+      "category": "DRIVES",
+      "extend": {},
+      "params": {},
+      "interface_type": "SATA",
+      "cells": 1
+    },
+    "dcs": [
+      5
+    ]
+  },
+  {
+    "id": 289,
+    "name": "US-SSD 2TB",
+    "currency_id": 3,
+    "price": 10,
+    "description": "SSD 2 TB",
+    "class": "part",
+    "class_desc": {
+      "cells": 1,
+      "interface_type": "SATA",
+      "params": {},
+      "category": "DRIVES",
+      "extend": {}
+    },
+    "dcs": [
+      5
+    ]
+  },
+  {
+    "id": 290,
+    "name": "US-NVMe 1TB",
+    "currency_id": 3,
+    "price": 7,
+    "description": "NVMe 1 TB",
+    "class": "part",
+    "class_desc": {
+      "params": {},
+      "extend": {},
+      "cells": 0,
+      "interface_type": "M.2",
+      "category": "DRIVES"
+    },
+    "dcs": [
+      5
+    ]
+  },
+  {
+    "id": 291,
+    "name": "US-NVMe 500GB",
+    "currency_id": 3,
+    "price": 4,
+    "description": "NVMe 500 GB",
+    "class": "part",
+    "class_desc": {
+      "extend": {},
+      "params": {},
+      "interface_type": "M.2",
+      "category": "DRIVES",
+      "cells": 0
+    },
+    "dcs": [
+      5
+    ]
+  },
+  {
+    "id": 292,
+    "name": "US-2xNMVe AOC-SLG3-2M2",
+    "currency_id": 3,
+    "price": 7,
+    "description": "2xNVMe controller",
+    "class": "part",
+    "class_desc": {
+      "extend": {
+        "DRIVES": {
+          "interfaces": [
+            {
+              "params": {},
+              "part_id": null,
+              "required": 1,
+              "type": "M.2"
+            },
+            {
+              "type": "M.2",
+              "part_id": null,
+              "required": 0,
+              "params": {}
+            }
+          ]
+        }
+      },
+      "category": "BUS",
+      "params": {
+        "capacity": 8,
+        "size": "2U"
+      },
+      "interface_type": "PCIe",
+      "cells": 0
+    },
+    "dcs": [
+      5
+    ]
+  },
+  {
+    "id": 301,
+    "name": "UA-X11-RAM DDR3 8GB",
+    "currency_id": 3,
+    "price": 3,
+    "description": "DDR3 8 GB",
+    "class": "part",
+    "class_desc": {
+      "extend": {},
+      "params": {
+        "capacity": 8,
+        "units": "GB"
+      },
+      "category": "RAM",
+      "cells": 0,
+      "interface_type": "DDR3"
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 303,
+    "name": "NL-RAID controller 4xSATA ports",
+    "currency_id": 3,
+    "price": 30,
+    "description": "RAID-controller 4xSATA ports",
+    "class": "part",
+    "class_desc": {
+      "extend": {
+        "DRIVES": {
+          "interfaces": [
+            {
+              "type": "SATA",
+              "required": 1,
+              "part_id": null,
+              "params": {}
+            },
+            {
+              "params": {},
+              "part_id": null,
+              "required": 0,
+              "type": "SATA"
+            },
+            {
+              "type": "SATA",
+              "required": 0,
+              "part_id": null,
+              "params": {}
+            },
+            {
+              "params": {},
+              "type": "SATA",
+              "required": 0,
+              "part_id": null
+            }
+          ]
+        }
+      },
+      "category": "BUS",
+      "interface_type": "PCIe",
+      "params": {
+        "capacity": 8,
+        "size": "2U"
+      },
+      "cells": 0
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 304,
+    "name": "US-RAID controller 4xSATA ports",
+    "currency_id": 3,
+    "price": 36,
+    "description": "RAID controller 4xSATA ports",
+    "class": "part",
+    "class_desc": {
+      "params": {
+        "capacity": 8,
+        "size": "2U"
+      },
+      "interface_type": "PCIe",
+      "extend": {
+        "DRIVES": {
+          "interfaces": [
+            {
+              "part_id": null,
+              "required": 1,
+              "params": {},
+              "type": "SATA"
+            },
+            {
+              "required": 0,
+              "part_id": null,
+              "type": "SATA",
+              "params": {}
+            },
+            {
+              "required": 0,
+              "part_id": null,
+              "type": "SATA",
+              "params": {}
+            },
+            {
+              "type": "SATA",
+              "params": {},
+              "required": 0,
+              "part_id": null
+            }
+          ]
+        }
+      },
+      "category": "BUS",
+      "cells": 0
+    },
+    "dcs": [
+      5
+    ]
+  },
+  {
+    "id": 305,
+    "name": "UA-4xNVMe AOC-SHG3-4M2P",
+    "currency_id": 3,
+    "price": 14,
+    "description": "4xNVMe controller",
+    "class": "part",
+    "class_desc": {
+      "category": "BUS",
+      "cells": 0,
+      "interface_type": "PCIe",
+      "params": {
+        "capacity": 8,
+        "size": "3U"
+      },
+      "extend": {
+        "DRIVES": {
+          "interfaces": [
+            {
+              "type": "M.2",
+              "part_id": null,
+              "params": {},
+              "required": 1
+            },
+            {
+              "part_id": null,
+              "type": "M.2",
+              "params": {},
+              "required": 0
+            },
+            {
+              "required": 0,
+              "params": {},
+              "part_id": null,
+              "type": "M.2"
+            },
+            {
+              "params": {},
+              "part_id": null,
+              "type": "M.2",
+              "required": 0
+            }
+          ]
+        }
+      }
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 306,
+    "name": "NL-4xNVMe AOC-SHG3-4M2P",
+    "currency_id": 3,
+    "price": 12,
+    "description": "4xNVMe controller",
+    "class": "part",
+    "class_desc": {
+      "interface_type": "PCIe",
+      "cells": 0,
+      "category": "BUS",
+      "extend": {
+        "DRIVES": {
+          "interfaces": [
+            {
+              "params": {},
+              "part_id": null,
+              "required": 1,
+              "type": "M.2"
+            },
+            {
+              "part_id": null,
+              "params": {},
+              "type": "M.2",
+              "required": 0
+            },
+            {
+              "required": 0,
+              "type": "M.2",
+              "part_id": null,
+              "params": {}
+            },
+            {
+              "part_id": null,
+              "params": {},
+              "required": 0,
+              "type": "M.2"
+            }
+          ]
+        }
+      },
+      "params": {
+        "capacity": 8,
+        "size": "3U"
+      }
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 307,
+    "name": "US-4xNVMe AOC-SHG3-4M2P",
+    "currency_id": 3,
+    "price": 22,
+    "description": "4xNVMe controller",
+    "class": "part",
+    "class_desc": {
+      "cells": 0,
+      "category": "BUS",
+      "interface_type": "PCIe",
+      "extend": {
+        "DRIVES": {
+          "interfaces": [
+            {
+              "type": "M.2",
+              "params": {},
+              "part_id": null,
+              "required": 1
+            },
+            {
+              "required": 0,
+              "type": "M.2",
+              "part_id": null,
+              "params": {}
+            },
+            {
+              "required": 0,
+              "params": {},
+              "part_id": null,
+              "type": "M.2"
+            },
+            {
+              "required": 0,
+              "type": "M.2",
+              "part_id": null,
+              "params": {}
+            }
+          ]
+        }
+      },
+      "params": {
+        "capacity": 8,
+        "size": "3U"
+      }
+    },
+    "dcs": [
+      5
+    ]
+  },
+  {
+    "id": 309,
+    "name": "US-HDD 1TB",
+    "currency_id": 3,
+    "price": 5,
+    "description": "HDD 1 TB",
+    "class": "part",
+    "class_desc": {
+      "params": {},
+      "extend": {},
+      "cells": 2,
+      "interface_type": "SATA",
+      "category": "DRIVES"
+    },
+    "dcs": [
+      5
+    ]
+  },
+  {
+    "id": 310,
+    "name": "NL-HDD 12TB",
+    "currency_id": 3,
+    "price": 21,
+    "description": "HDD 12 TB",
+    "class": "part",
+    "class_desc": {
+      "extend": {},
+      "cells": 2,
+      "params": {},
+      "category": "DRIVES",
+      "interface_type": "SATA"
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 311,
+    "name": "UA-HDD 10TB",
+    "currency_id": 3,
+    "price": 17,
+    "description": "HDD 10 TB",
+    "class": "part",
+    "class_desc": {
+      "category": "DRIVES",
+      "extend": {},
+      "params": {},
+      "cells": 2,
+      "interface_type": "SATA"
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 312,
+    "name": "NL-HDD 10TB",
+    "currency_id": 3,
+    "price": 20,
+    "description": "HDD 10 TB",
+    "class": "part",
+    "class_desc": {
+      "params": {},
+      "category": "DRIVES",
+      "cells": 2,
+      "interface_type": "SATA",
+      "extend": {}
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 314,
+    "name": "NL-X11-RAM DDR3 8GB",
+    "currency_id": 3,
+    "price": 4,
+    "description": "DDR3 8 GB",
+    "class": "part",
+    "class_desc": {
+      "category": "RAM",
+      "cells": 0,
+      "extend": {},
+      "interface_type": "DDR3",
+      "params": {
+        "capacity": 8,
+        "units": "GB"
+      }
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 315,
+    "name": "NL-X11-RAM DDR4 16GB",
+    "currency_id": 3,
+    "price": 6,
+    "description": "DDR4 16 GB",
+    "class": "part",
+    "class_desc": {
+      "category": "RAM",
+      "extend": {},
+      "cells": 0,
+      "params": {
+        "units": "GB",
+        "capacity": 16
+      },
+      "interface_type": "DDR4"
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 320,
+    "name": "UA-CPU Xeon Silver 4216",
+    "currency_id": 3,
+    "price": 91,
+    "description": "Xeon Silver 16 cores, 2.1 GHz",
+    "class": "part",
+    "class_desc": {
+      "extend": {},
+      "cells": 0,
+      "category": "CPU",
+      "params": {
+        "model": "Silver 4216"
+      },
+      "interface_type": "LGA3647"
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 321,
+    "name": "UA-X11-RAM DDR4 REG 32GB",
+    "currency_id": 3,
+    "price": 8,
+    "description": "DDR4 REG 32 GB",
+    "class": "part",
+    "class_desc": {
+      "params": {
+        "units": "GB",
+        "capacity": 32
+      },
+      "extend": {},
+      "cells": 0,
+      "interface_type": "DDR4 REG",
+      "category": "RAM"
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 324,
+    "name": "NL-CPU Xeon Silver 4216",
+    "currency_id": 3,
+    "price": 70,
+    "description": "Xeon Silver 16 cores, 2.1 GHz",
+    "class": "part",
+    "class_desc": {
+      "cells": 0,
+      "category": "CPU",
+      "params": {
+        "model": "Silver 4216"
+      },
+      "interface_type": "LGA3647",
+      "extend": {}
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 325,
+    "name": "NL-X11-RAM DDR4 REG 32GB",
+    "currency_id": 3,
+    "price": 10,
+    "description": "DDR4 REG 32 GB",
+    "class": "part",
+    "class_desc": {
+      "extend": {},
+      "category": "RAM",
+      "params": {
+        "capacity": 32,
+        "units": "GB"
+      },
+      "interface_type": "DDR4 REG",
+      "cells": 0
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 330,
+    "name": "UA-NVMe 2TB",
+    "currency_id": 3,
+    "price": 14,
+    "description": "NVMe 2 TB",
+    "class": "part",
+    "class_desc": {
+      "cells": 0,
+      "extend": {},
+      "params": {},
+      "category": "DRIVES",
+      "interface_type": "M.2"
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 331,
+    "name": "NL-NVMe 2 TB",
+    "currency_id": 3,
+    "price": 12,
+    "description": "NVMe 2 TB",
+    "class": "part",
+    "class_desc": {
+      "extend": {},
+      "category": "DRIVES",
+      "interface_type": "M.2",
+      "params": {},
+      "cells": 0
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 339,
+    "name": "UA-HDD 1TB",
+    "currency_id": 3,
+    "price": 5,
+    "description": "HDD 1 TB",
+    "class": "part",
+    "class_desc": {
+      "extend": {},
+      "interface_type": "SATA",
+      "cells": 2,
+      "params": {},
+      "category": "DRIVES"
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 340,
+    "name": "NL-HDD 2TB",
+    "currency_id": 3,
+    "price": 14,
+    "description": "HDD 2 TB",
+    "class": "part",
+    "class_desc": {
+      "extend": {},
+      "cells": 2,
+      "category": "DRIVES",
+      "interface_type": "SATA",
+      "params": {}
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 342,
+    "name": "NL-HDD 1TB",
+    "currency_id": 3,
+    "price": 7,
+    "description": "HDD 1 TB",
+    "class": "part",
+    "class_desc": {
+      "params": {},
+      "extend": {},
+      "cells": 2,
+      "category": "DRIVES",
+      "interface_type": "SATA"
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 344,
+    "name": "UA-CPU Xeon E5-2620 v4",
+    "currency_id": 3,
+    "price": 20,
+    "description": "Xeon E5-2620 v4, 8 cores, 2.1 GHz",
+    "class": "part",
+    "class_desc": {
+      "params": {
+        "model": "Xeon E5-2620 v4"
+      },
+      "extend": {},
+      "category": "CPU",
+      "interface_type": "FCLGA2011-3",
+      "cells": 0
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 355,
+    "name": "NL-HDD 6TB",
+    "currency_id": 3,
+    "price": 15,
+    "description": "HDD 6 TB",
+    "class": "part",
+    "class_desc": {
+      "params": {},
+      "cells": 2,
+      "interface_type": "SATA",
+      "extend": {},
+      "category": "DRIVES"
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 356,
+    "name": "UA-HDD 6TB",
+    "currency_id": 3,
+    "price": 12,
+    "description": "HDD 6 TB",
+    "class": "part",
+    "class_desc": {
+      "cells": 2,
+      "category": "DRIVES",
+      "params": {},
+      "interface_type": "SATA",
+      "extend": {}
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 362,
+    "name": "UA-HDD 2TB",
+    "currency_id": 3,
+    "price": 9,
+    "description": "HDD 2 TB",
+    "class": "part",
+    "class_desc": {
+      "category": "DRIVES",
+      "cells": 2,
+      "extend": {},
+      "params": {},
+      "interface_type": "SATA"
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 364,
+    "name": "NL-X11-RAM DDR4 REG 64GB",
+    "currency_id": 3,
+    "price": 19,
+    "description": "DDR4 64 GB",
+    "class": "part",
+    "class_desc": {
+      "params": {
+        "units": "GB",
+        "capacity": 64
+      },
+      "category": "RAM",
+      "interface_type": "DDR4 REG",
+      "cells": 0,
+      "extend": {}
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 370,
+    "name": "US-NVMe 2TB",
+    "currency_id": 3,
+    "price": 12,
+    "description": "NVMe 2 TB",
+    "class": "part",
+    "class_desc": {
+      "extend": {},
+      "interface_type": "M.2",
+      "params": {},
+      "cells": 0,
+      "category": "DRIVES"
+    },
+    "dcs": [
+      5
+    ]
+  },
+  {
+    "id": 387,
+    "name": "NL-CPU Xeon Silver 4214",
+    "currency_id": 3,
+    "price": 40,
+    "description": "Xeon Silver 12 cores, 2.2 GHz",
+    "class": "part",
+    "class_desc": {
+      "cells": 0,
+      "interface_type": "LGA3647",
+      "category": "CPU",
+      "params": {
+        "model": "Silver 4214"
+      },
+      "extend": {}
+    },
+    "dcs": [
+      4
+    ]
+  },
+  {
+    "id": 393,
+    "name": "UA-CPU Xeon Gold 6248",
+    "currency_id": 3,
+    "price": 250,
+    "description": "Xeon Gold 20 cores, 2.5 GHz",
+    "class": "part",
+    "class_desc": {
+      "params": {
+        "model": "Gold 6248"
+      },
+      "interface_type": "LGA3647",
+      "extend": {},
+      "cells": 0,
+      "category": "CPU"
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 412,
+    "name": "UA-X13-RAM DDR5 REG 64GB",
+    "currency_id": 3,
+    "price": 18,
+    "description": "DDR4 REG 64 GB",
+    "class": "part",
+    "class_desc": {
+      "category": "RAM",
+      "cells": 0,
+      "extend": {},
+      "params": {
+        "capacity": 64,
+        "units": "GB"
+      },
+      "interface_type": "DDR5 REG"
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 413,
+    "name": "UA-CPU Xeon Silver 4510",
+    "currency_id": 3,
+    "price": 43,
+    "description": "Xeon Silver 12 cores, 2.4 GHz",
+    "class": "part",
+    "class_desc": {
+      "params": {
+        "model": "Silver 4510"
+      },
+      "interface_type": "LGA4677",
+      "cells": 0,
+      "category": "CPU",
+      "extend": {}
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 414,
+    "name": "UA-CPU Xeon Silver 4514Y",
+    "currency_id": 3,
+    "price": 59,
+    "description": "Xeon Silver 16 cores, 3.4 GHz",
+    "class": "part",
+    "class_desc": {
+      "extend": {},
+      "interface_type": "LGA4677",
+      "params": {
+        "model": "Silver 4514Y"
+      },
+      "category": "CPU",
+      "cells": 0
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 420,
+    "name": "UA-X13-RAM DDR5 32GB",
+    "currency_id": 3,
+    "price": 10,
+    "description": "DDR5 32 GB",
+    "class": "part",
+    "class_desc": {
+      "params": {
+        "capacity": 32,
+        "units": "GB"
+      },
+      "extend": {},
+      "interface_type": "DDR5",
+      "category": "RAM",
+      "cells": 0
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 424,
+    "name": "UA-CPU Xeon Silver 4114",
+    "currency_id": 3,
+    "price": 15,
+    "description": "Xeon Silver 4114 2.2GHz 10 core 20 thread",
+    "class": "part",
+    "class_desc": {
+      "category": "CPU",
+      "params": {
+        "model": "Silver 4114"
+      },
+      "interface_type": "LGA3647",
+      "cells": 0,
+      "extend": {}
+    },
+    "dcs": [
+      2
+    ]
+  },
+  {
+    "id": 278,
+    "price_pack_id": 94,
+    "name": "US-4X11",
+    "price_packs_name": "US-4X11_32GB_500GB-SSD",
+    "price_packs_description": " Xeon E-2234, 4 core, 3.6GHz, RAM 32Gb, 500GB SSD",
+    "price_packs_site_description": {
+      "ua": {},
+      "en": {},
+      "ru": {},
+      "name": "US-4X11 / 32GB / 500GB SSD",
+      "CPU": "Xeon E-2234",
+      "RAM": "32GB DDR4",
+      "cores": "4",
+      "description": "4 core, 3.6GHz",
+      "HDD": "500 GB SSD"
+    },
+    "currency_id": 3,
+    "price": 87,
+    "container_price": 101,
+    "description": "Xeon E-2234, 4 core, 3.6GHz, RAM 32-128Gb, drive 250Gb - 34Tb",
+    "count": 1,
+    "class": "container",
+    "class_desc": {
+      "categories": {
+        "RAM": {
+          "interfaces": [
+            {
+              "part_id": 282,
+              "type": "DDR4",
+              "required": 1,
+              "params": {
+                "capacity": [
+                  32
+                ],
+                "units": "GB"
+              },
+              "part_cells": 0
+            },
+            {
+              "required": 0,
+              "type": "DDR4",
+              "part_id": null,
+              "params": {
+                "capacity": [
+                  32
+                ],
+                "units": "GB"
+              }
+            },
+            {
+              "params": {
+                "capacity": [
+                  32
+                ],
+                "units": "GB"
+              },
+              "part_id": null,
+              "type": "DDR4",
+              "required": 0
+            },
+            {
+              "params": {
+                "capacity": [
+                  32
+                ],
+                "units": "GB"
+              },
+              "part_id": null,
+              "required": 0,
+              "type": "DDR4"
+            }
+          ]
+        },
+        "BUS": {
+          "interfaces": [
+            {
+              "params": {
+                "capacity": [
+                  16,
+                  8,
+                  4,
+                  2
+                ],
+                "size": [
+                  "1U",
+                  "2U",
+                  "3U"
+                ]
+              },
+              "required": 0,
+              "type": "PCIe",
+              "part_id": null
+            }
+          ]
+        },
+        "DRIVES": {
+          "interfaces": [
+            {
+              "params": {},
+              "part_id": null,
+              "type": "M.2",
+              "required": 0
+            },
+            {
+              "part_id": 287,
+              "required": 0,
+              "type": "SATA",
+              "params": {},
+              "part_cells": 1
+            },
+            {
+              "params": {},
+              "type": "SATA",
+              "required": 0,
+              "part_id": null
+            },
+            {
+              "params": {},
+              "required": 0,
+              "type": "SATA",
+              "part_id": null
+            },
+            {
+              "params": {},
+              "part_id": null,
+              "type": "SATA",
+              "required": 0
+            }
+          ]
+        }
+      },
+      "cells": {
+        "count": 4,
+        "max_parts": 2,
+        "free": 4
+      }
+    },
+    "dcs": [
+      5
+    ]
+  }
+]
