@@ -1,22 +1,20 @@
-# A project for learning React library concepts.
+# React Interactive Product Configurator
+An interactive web application for complex parametric product configuration, built with React with a focus on scalable architecture, predictable state management, and deep rendering optimization.
 
-Built using **React + Vite**.
+### Key Features
+* **Complex Business Logic Engine:** Processing multi-level nested JSON structures supporting dynamic dependency chains between parameters, conditional validation, and real-time complex pricing calculations.
 
-### ⚡ Key Features:
+* **Rendering Performance Optimization:** Preventing redundant re-renders and UI freezes when modifying interconnected configuration nodes through a combination of local memoization (useMemo) and granular reactivity.
 
-#### **Data Reactivity:**
-* Implemented reactivity using React's state management (`useState`) to ensure seamless, real-time UI updates without unnecessary re-renders.
-* **Component Synchronization:** Utilized `useEffect` and custom hooks to synchronize side effects with state changes, maintaining a predictable single source of truth.
+* **Reactive State Architecture (MobX):** Utilizing stores with reactive computed properties for efficient derivation of computed data and a predictable data flow.
 
+* **Client-Side Session Persistence:** Integrating bidirectional state synchronization with LocalStorage, allowing users to save, restore, and modify custom configurations across sessions.
 
-#### **State Management:**
-* **Global Reactive State:** Powered by **MobX**  to ensure instant, reactive UI updates across decoupled components.
+* **Cart Module & Data Serialization:** A robust cart management subsystem featuring on-the-fly price recalculation, interactive cart editing, and state structure serialization for backend order submission.
 
-#### **Routing:**
-* React Router Dom
-
-#### **Data Fetching:** 
-* **Axios** for production-ready HTTP requests + Local **JSON Mocking** for local development and standalone previews.
-
-#### **Styling:**
-* SCSS
+### Tech Stack
+* **Core:** React, JavaScript (ES6+)
+* **Build Tool:** Vite
+* **State Management:** MobX (mobx, mobx-react-lite)
+* **Routing:** React Router
+* **Styling:** SCSS
