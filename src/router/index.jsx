@@ -7,38 +7,43 @@ import DedicatedView from "@/views/DedicatedView.jsx";
 import DedicatedTariffView from "@/views/DedicatedTariffView.jsx";
 import CartView from "@/views/CartView.jsx";
 
-const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <MainLayoutView />,
-        children: [
-            {
-                path: "",                 
-                element: <DedicatedView />,
-            },
-            {
-                path: "tariff-dedicated/:id",
-                element: <DedicatedTariffView />
-            },
-            {
-                path: "cart",
-                element: <CartView />,
-            },
-        ],
-    },
-    {
-        path: "sign-up",
-        element: <SignUpView />,
-    },
-    {
-        path: "sign-in",
-        element: <SignInView />,
-    },
-    {
-        path: "*",
-        element: <div>error. page not found.</div>,
-    },
+const router = createBrowserRouter(
+    [
+        {
+            path: "/",
+            element: <MainLayoutView />,
+            children: [
+                {
+                    path: "",
+                    element: <DedicatedView />,
+                },
+                {
+                    path: "tariff-dedicated/:id",
+                    element: <DedicatedTariffView />
+                },
+                {
+                    path: "cart",
+                    element: <CartView />,
+                },
+            ],
+        },
+        {
+            path: "sign-up",
+            element: <SignUpView />,
+        },
+        {
+            path: "sign-in",
+            element: <SignInView />,
+        },
+        {
+            path: "*",
+            element: <div>error. page not found.</div>,
+        },
 
-]);
+    ],
+    {
+        basename: import.meta.env.DEV ? '/' : '/react-hosting_/'
+    }
+);
 
 export default router;
