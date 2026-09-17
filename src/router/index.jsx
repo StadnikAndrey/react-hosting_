@@ -1,7 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 
 import MainLayoutView from "@/views/MainLayout.jsx";
-import HomeView from "@/views/HomeView.jsx";
 import SignInView from "@/views/SignInView.jsx"
 import SignUpView from "@/views/SignUpView.jsx";
 import DedicatedView from "@/views/DedicatedView.jsx";
@@ -14,11 +13,7 @@ const router = createBrowserRouter([
         element: <MainLayoutView />,
         children: [
             {
-                path: "",
-                element: <HomeView />,
-            },
-            {
-                path: "dedicated",
+                path: "",                 
                 element: <DedicatedView />,
             },
             {

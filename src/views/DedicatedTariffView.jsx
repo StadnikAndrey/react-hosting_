@@ -612,7 +612,7 @@ function DedicatedTariffView() {
                                     {data.drives.drivesSlots.map((slot, index) => {
                                         return (
                                             <div className="dedicated-tariff__disk-wrap" key={slot.key}>
-                                                <p>{slot.occup_cells} ::{slot.type == 'M.2' ? 'NVMe' : slot.type}:</p>
+                                                <p>{slot.type == 'M.2' ? 'NVMe' : slot.type}:</p>
                                                 <select defaultValue={slot.part_id} onChange={(e) => setDrives(e.target.value, index, slot.type)}>
                                                     <option value="null">-</option>
                                                     {slot.canBeInstall.map((item) => {

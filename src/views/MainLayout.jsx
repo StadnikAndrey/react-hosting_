@@ -18,8 +18,7 @@ function MainLayout() {
                 <div className="content">
                     <div className="header__inner">
                         <NavLink className={activClassNavlink} to="/">Home</NavLink>
-                        <nav className="header__menu">
-                            <NavLink className={activClassNavlink} to="/dedicated">Dedicated</NavLink>
+                        <nav className="header__menu">                             
                             <NavLink className={activClassNavlink} to="/cart">
                                 <span>Cart </span>
                                 {store.cart.getNumberItemsCart != 0 && <span>({store.cart.getNumberItemsCart})</span>}
