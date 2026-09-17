@@ -18,7 +18,7 @@ export default defineConfig(({ mode }) => {
         },
       },
     },
-    base: mode === 'production' ? '/react-hosting_/' : '/',
-
+    // base: mode === 'production' ? '/react-hosting_/' : '/',
+    base: '/react-hosting_/',
   }
 })
